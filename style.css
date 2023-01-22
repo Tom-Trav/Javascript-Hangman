@@ -1,5 +1,45 @@
+* {
+    margin:auto;
+    padding: none;
+}
 #title, #cat {
     display: flex;
     justify-content: center;
     margin: auto;
+}
+#cat {
+    padding-top: 50px;
+}
+#cat-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 500px;
+}
+#cities-btn, #car-btn, #fashion-btn { 
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+#btn-container {
+    padding-top: 30px;
+}
+#alphabet {
+    display: flex;
+    justify-content: center;
+}
+#cat-choice {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    padding: 30px;
+}
+#guessed-chars {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-size: 45px;
 }
