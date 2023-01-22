@@ -10,23 +10,8 @@ const chars = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", 
 let choice = document.getElementById("cat-choice")
 let catMsg = "You chose the category: "
 
-// function game() {
-//     let list = ""
-//     for (let i = 0; i < chars.length; i++) {
-//         list += `
-//         <li>
-//             <button>
-//                 ${chars[i]}
-//             </button>
-//         </li>`
-//     }
-//     alphabet.innerHTML = list
-// }
 
 
-
-
-// EVENT LISTENER FUNCTIONS FOR CAT BUTTONS
 cities.addEventListener("click", function() {
     choice.textContent = catMsg + "'CITIES'"
 })
@@ -36,6 +21,12 @@ cars.addEventListener("click", function() {
 fashion.addEventListener("click", function() {
     choice.textContent = catMsg + "'FASHION BRANDS'"
 })
+
+
+
+
+
+
 
 
 
