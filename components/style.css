@@ -26,8 +26,12 @@
 }
 #btn-container {
     padding-top: 30px;
+    width:fit-content;
+    font-size: 20px;
+    padding: 50px;
 }
 #alphabet {
+    list-style: none;
     display: flex;
     justify-content: center;
 }
