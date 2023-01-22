@@ -25,15 +25,23 @@
     font-size: 20px;
 }
 #btn-container {
-    padding-top: 30px;
-    width:fit-content;
+    width: fit-content;
     font-size: 20px;
-    padding: 50px;
+    padding: 30px;
 }
 #alphabet {
     list-style: none;
     display: flex;
     justify-content: center;
+}
+li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#alph {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
 }
 #cat-choice {
     display: flex;

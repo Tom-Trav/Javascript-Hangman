@@ -23,23 +23,24 @@ fashion.addEventListener("click", function() {
     choice.textContent = catMsg + "'FASHION BRANDS'"
     game()
 })
-
-
-
 function game() {
     let list = ""
     for (let i = 0; i < chars.length; i++) { 
         list += `
         <li>
-        <button>
+        <button id="alph">
             ${chars[i]}
         </button>
-        </li>`
+        </li>
+        `
     }
     alphabet.innerHTML = list
 }
-
-
+let charChoice
+alphabet.addEventListener("click", function() {
+    charChoice = document.getElementById("alph")
+    console.log(charChoice)
+})
 
 
 
