@@ -38,7 +38,7 @@ li {
     margin-left: 5px;
     margin-right: 5px;
 }
-#alph {
+.alph {
     width: 40px;
     height: 40px;
     font-size: 24px;
@@ -49,7 +49,7 @@ li {
     font-size: 24px;
     padding: 30px;
 }
-#guessed-chars {
+#word-to-guess {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
